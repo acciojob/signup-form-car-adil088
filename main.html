@@ -12,13 +12,18 @@
 		<label for="name">Name:</label>
         <input type="text" id="name" name="name" placeholder="Name" required>
 		<br>
+		<label for="email">Email:</label>
 			<input type="email" id="email" name="email" placeholder="email" required>
 		<br>
+		<label for="gender_m">Male:</label>
 		<input type="radio" id="gender_m" name="gender" value="gender_m" required>
         	<br>
+		<label for="gender_f">Female:</label>
 		<input type="radio" id="gender_f" name="gender" value="gender_f" required>
 			<br>
-		<select id="cars" name="cars" placeholder="--Please choose an option--" required>
+		<label for="cars">Car Brand:</label>
+        <select id="cars" name="cars" required>
+            <option value="" disabled selected>--Please choose an option--</option>
             <option value="toyota">Toyota</option>
             <option value="honda">Honda</option>
             <option value="ford">Ford</option>
@@ -26,12 +31,16 @@
             <option value="audi">Audi</option>
         </select>
 			<br>
+		<label for="age">Age:</label>
 		<input type="number" id="age" name="age" placeholder="Age" required>
 			<br>
+		<label for="dob">DOB:</label>
 		<input type="date" id="dob" name="dob" required>
 			<br>
+		<label for="tel">Phone Number:</label>
 		<input type="tel" id="tel" name="tel" placeholder="xxx-xxx-xxxx">
 			<br>
+		<label for="tel">I agree to the TOS:</label>
 		<input type="checkbox" id="tos" name="tos" required>
 		
 	</form>
